@@ -16,7 +16,8 @@ namespace lab1
             gameTwo.Play();
             var gameThree = ReturnGames.GetTraineGame(user1, user2,  14, 12);
             gameThree.Play();
-            
+            var gameFour = ReturnGames.GetTicTacToe(user1, user2, 50); 
+            gameFour.Play();
             Console.WriteLine(user1.UserName + "\n" + user1.GetStats());
             Console.WriteLine(user2.UserName + "\n" + user2.GetStats());
         }
