@@ -44,6 +44,7 @@
         <Compile Include="Accounts\StandartGameAccount.cs" />
         <Compile Include="Games\BaseGame.cs" />
         <Compile Include="Games\StandartGame.cs" />
+        <Compile Include="Games\TicTacToe.cs" />
         <Compile Include="Games\TraineGame.cs" />
         <Compile Include="Others\Calculation.cs" />
         <Compile Include="Others\ReturnGames.cs" />
